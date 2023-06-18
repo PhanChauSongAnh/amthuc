@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://img6.thuthuatphanmem.vn/uploads/2022/03/15/background-thiet-ke-am-thuc-dep-nhat_081320069.jpg) no-repeat center center fixed ; 
+    background-size: cover;
+}
+.wrapper{
+    width: 450px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 10%;
+    backdrop-filter:blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.wrapper > h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputbox {
+    position: relative;
+    width: 160%;
+    height: 50px;
+    border-bottom: solid 2px black;
+    margin-left: -80px;
+    margin-top: 40px;
+}
+.inputbox input:focus~label,
+.inputbox ibput:valid~label{
+    top:-5px
+}
+.inputbox > label {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+}
+.inputbox > input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.icon{
+    position: absolute;
+    right: 8px;
+    top:30px;
+}
+.inputbox2{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+}
+.inputbox2 > h2 {
+    margin-top: 20px;
+    
+}
+.inputbox2 > select {
+    top:20px;
+    right: 6px;
+    position: absolute;
+    background: transparent;
+    border: none;
+}
+.btn{
+    width: 100%;
+    height:40px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}   
